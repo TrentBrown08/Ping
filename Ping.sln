@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingNet", "PingNet\PingNet.csproj", "{8811D98E-A286-48FF-B07D-E905B57ACD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingServer", "PingServer\PingServer.csproj", "{27FAC9AC-775B-47F5-9636-11527F41AB06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8811D98E-A286-48FF-B07D-E905B57ACD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8811D98E-A286-48FF-B07D-E905B57ACD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8811D98E-A286-48FF-B07D-E905B57ACD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8811D98E-A286-48FF-B07D-E905B57ACD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FAC9AC-775B-47F5-9636-11527F41AB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FAC9AC-775B-47F5-9636-11527F41AB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FAC9AC-775B-47F5-9636-11527F41AB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FAC9AC-775B-47F5-9636-11527F41AB06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
