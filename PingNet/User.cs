@@ -1,20 +1,19 @@
+using System.Text.Json.Serialization;
+using Ping.Storage;
+
 namespace Ping;
 
 public class User
 {
-    public static List<User> Users = [];
-
     public static User? GetUser(string username)
     {
-        foreach (var user in Users)
-            if (user.Username == username)
-                return user;
-        
-        return null;
+        return Persistence.Users.FirstOrDefault(user => user.Username == username);
     }
     
+    [JsonInclude]
     public string? Username { get; private init; }
-    internal string? Password {get; private set;}
+    [JsonInclude]
+    internal string? Password { get; private init; }
 
     public static User CreateUser(string username, string password)
     {
@@ -24,7 +23,17 @@ public class User
             Password = password
         };
 
-        Users.Add(user);
+        Persistence.Users.Add(user);
         return user;
+    }
+
+    public static bool DeleteUser(string username, string password)
+    {
+        var user = GetUser(username);
+        if (user?.Password != password)
+            return false;
+        
+        Persistence.Users.Remove(user);
+        return true;
     }
 }

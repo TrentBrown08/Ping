@@ -10,3 +10,16 @@
 /home/kitchenboy/RiderProjects/Ping/PingNet/obj/Debug/net10.0/Ping.pdb
 /home/kitchenboy/RiderProjects/Ping/PingNet/obj/Debug/net10.0/ref/Ping.dll
 /home/kitchenboy/RiderProjects/Ping/PingNet/obj/Debug/net10.0/PingNet.csproj.AssemblyReference.cache
+/home/kitchenboy/Projects/Ping/PingNet/bin/Debug/net10.0/Ping.deps.json
+/home/kitchenboy/Projects/Ping/PingNet/bin/Debug/net10.0/Ping.dll
+/home/kitchenboy/Projects/Ping/PingNet/bin/Debug/net10.0/Ping.pdb
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/PingNet.csproj.AssemblyReference.cache
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/PingNet.GeneratedMSBuildEditorConfig.editorconfig
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/PingNet.AssemblyInfoInputs.cache
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/PingNet.AssemblyInfo.cs
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/PingNet.csproj.CoreCompileInputs.cache
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/PingNet.sourcelink.json
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/Ping.dll
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/refint/Ping.dll
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/Ping.pdb
+/home/kitchenboy/Projects/Ping/PingNet/obj/Debug/net10.0/ref/Ping.dll

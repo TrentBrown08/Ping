@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kitchenboy/RiderProjects/Ping/PingServer/PingServer.csproj",
+      "projectUniqueName": "/home/kitchenboy/Projects/Ping/PingServer/PingServer.csproj",
       "projectName": "PingServer",
-      "projectPath": "/home/kitchenboy/RiderProjects/Ping/PingServer/PingServer.csproj",
+      "projectPath": "/home/kitchenboy/Projects/Ping/PingServer/PingServer.csproj",
       "packagesPath": "/home/kitchenboy/.nuget/packages/",
-      "outputPath": "/home/kitchenboy/RiderProjects/Ping/PingServer/obj/",
+      "outputPath": "/home/kitchenboy/Projects/Ping/PingServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kitchenboy/.nuget/NuGet/NuGet.Config"
@@ -76,8 +76,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/kitchenboy/RiderProjects/Ping/PingNet/PingNet.csproj": {
-              "projectPath": "/home/kitchenboy/RiderProjects/Ping/PingNet/PingNet.csproj"
+            "/home/kitchenboy/Projects/Ping/PingNet/PingNet.csproj": {
+              "projectPath": "/home/kitchenboy/Projects/Ping/PingNet/PingNet.csproj"
             }
           }
         }
@@ -113,7 +113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/kitchenboy/.dotnet/sdk/10.0.202/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/kitchenboy/.dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

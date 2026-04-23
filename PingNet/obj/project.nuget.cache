@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZjGwMU53IOw=",
+  "dgSpecHash": "m8pbsqV9PZA=",
   "success": true,
-  "projectFilePath": "/home/kitchenboy/RiderProjects/Ping/PingNet/PingNet.csproj",
+  "projectFilePath": "/home/kitchenboy/Projects/Ping/PingNet/PingNet.csproj",
   "expectedPackageFiles": [
     "/home/kitchenboy/.nuget/packages/websocketsharp/1.0.3-rc11/websocketsharp.1.0.3-rc11.nupkg.sha512"
   ],
@@ -11,9 +11,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'WebSocketSharp 1.0.3-rc11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
-      "projectPath": "/home/kitchenboy/RiderProjects/Ping/PingNet/PingNet.csproj",
+      "projectPath": "/home/kitchenboy/Projects/Ping/PingNet/PingNet.csproj",
       "warningLevel": 1,
-      "filePath": "/home/kitchenboy/RiderProjects/Ping/PingNet/PingNet.csproj",
+      "filePath": "/home/kitchenboy/Projects/Ping/PingNet/PingNet.csproj",
       "libraryId": "WebSocketSharp",
       "targetGraphs": [
         "net10.0"

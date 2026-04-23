@@ -1,7 +1,7 @@
 namespace Ping.Storage;
 
-public class Files
+public static class Files
 {
-    public static readonly string USERS = "Users";
-    public static readonly string CHANNELS = "Channels";
+    public const string Users = "Users.json";
+    public const string Channels = "Channels.json";
 }
