@@ -1,3 +1,4 @@
+using System.Net;
 using System.Text.Json;
 using WebSocketSharp;
 using WebSocketSharp.Server;
@@ -80,7 +81,7 @@ public class ServerBehavior : WebSocketBehavior
         
         // Create new User and apply session token
         user = User.CreateUser(username, password);
-        _session = Session.CreateSession(user);
+        _session = Session.CreateSession(Context.UserEndPoint.ToString(), user);
         
         Send(MessageHelper.CreateMessage(MessageType.Login, _session.Token));
     }
@@ -101,7 +102,16 @@ public class ServerBehavior : WebSocketBehavior
             return;
         }
         
-        _session = Session.CreateSession(user);
+        Console.WriteLine($"Logging in: {Context.UserEndPoint}");
+        
+        _session = Session.GetSession(Context.UserEndPoint.ToString());
+        if (_session != null)
+        {
+            Send(MessageHelper.CreateMessage(MessageType.Login, _session.Token));
+            return;
+        }
+        
+        _session = Session.CreateSession(Context.UserEndPoint.ToString(), user);
         Send(MessageHelper.CreateMessage(MessageType.Login, _session.Token));
     }
 }

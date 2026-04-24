@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PingServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09f6a94f8223f294dea40dbe44bebdc9ac3a6c4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e74b0113779fec963c901bc0495400983cbfc7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PingServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PingServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
